@@ -1,0 +1,30 @@
+# Default configuration for brain tumor detection model
+
+model:
+  name: brain_tumor_classifier
+  type: deep_learning
+  architecture: "MLP"
+  version: "1.0.0"
+
+training:
+  hidden_layer_sizes: [128, 64, 32]
+  activation: "relu"
+  solver: "adam"
+  alpha: 0.001
+  batch_size: 32
+  learning_rate: "adaptive"
+  max_iter: 500
+  random_state: 42
+  test_size: 0.2
+
+preprocessing:
+  scaler_type: "standard"
+
+evaluation:
+  metrics:
+    - accuracy
+    - precision
+    - recall
+    - f1_score
+    - roc_auc
+

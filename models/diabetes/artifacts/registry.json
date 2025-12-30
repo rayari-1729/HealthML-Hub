@@ -1,0 +1,31 @@
+{
+  "model_name": "diabetes_classifier",
+  "model_version": "1.0.0",
+  "status": "under_development",
+  "metrics": {
+    "accuracy": 0.0,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1_score": 0.0
+  },
+  "n_samples": 0,
+  "feature_names": [
+    "pregnancies",
+    "glucose",
+    "blood_pressure",
+    "skin_thickness",
+    "insulin",
+    "bmi",
+    "diabetes_pedigree",
+    "age"
+  ],
+  "known_limitations": [
+    "Trained on synthetic data for demonstration",
+    "In production, train on real Pima Indians Diabetes Dataset",
+    "May not generalize to all populations",
+    "Requires all input features to be non-zero"
+  ],
+  "training_date": null,
+  "last_updated": null
+}
+

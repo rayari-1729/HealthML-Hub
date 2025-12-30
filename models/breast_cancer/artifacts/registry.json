@@ -1,0 +1,13 @@
+{
+  "model_name": "breast_cancer_classifier",
+  "model_version": "1.0.0",
+  "status": "under_development",
+  "metrics": {},
+  "feature_names": [
+    "radius_mean", "texture_mean", "perimeter_mean", "area_mean",
+    "smoothness_mean", "compactness_mean", "concavity_mean",
+    "concave_points_mean", "symmetry_mean", "fractal_dimension_mean"
+  ],
+  "known_limitations": ["Trained on synthetic data for demonstration"]
+}
+

@@ -1,0 +1,15 @@
+# Default configuration for liver disease model
+
+model:
+  name: liver_disease_classifier
+  type: gradient_boosting
+  version: "1.0.0"
+
+training:
+  n_estimators: 100
+  max_depth: 5
+  random_state: 42
+
+preprocessing:
+  scaler_type: "standard"
+

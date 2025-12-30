@@ -1,0 +1,8 @@
+{
+  "model_name": "liver_disease_classifier",
+  "model_version": "1.0.0",
+  "status": "under_development",
+  "metrics": {},
+  "known_limitations": ["Trained on synthetic data"]
+}
+

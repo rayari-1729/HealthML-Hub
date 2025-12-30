@@ -1,0 +1,15 @@
+# Default configuration for lung disease model
+
+model:
+  name: lung_disease_classifier
+  type: random_forest
+  version: "1.0.0"
+
+training:
+  n_estimators: 100
+  max_depth: 10
+  random_state: 42
+
+preprocessing:
+  scaler_type: "standard"
+

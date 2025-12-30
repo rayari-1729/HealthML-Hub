@@ -1,0 +1,16 @@
+# Default configuration for breast cancer model
+
+model:
+  name: breast_cancer_classifier
+  type: svm
+  version: "1.0.0"
+
+training:
+  C: 1.0
+  kernel: "rbf"
+  random_state: 42
+  test_size: 0.2
+
+preprocessing:
+  scaler_type: "standard"
+

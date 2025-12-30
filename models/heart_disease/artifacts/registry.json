@@ -1,0 +1,15 @@
+{
+  "model_name": "heart_disease_classifier",
+  "model_version": "1.0.0",
+  "status": "under_development",
+  "metrics": {},
+  "feature_names": [
+    "age", "sex", "cp", "trestbps", "chol", "fbs",
+    "restecg", "thalach", "exang", "oldpeak", "slope", "ca", "thal"
+  ],
+  "known_limitations": [
+    "Trained on synthetic data for demonstration",
+    "In production, train on real Cleveland Heart Disease Dataset"
+  ]
+}
+

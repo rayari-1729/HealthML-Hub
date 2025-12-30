@@ -1,0 +1,40 @@
+# Default configuration for diabetes model
+
+model:
+  name: diabetes_classifier
+  type: random_forest
+  version: "1.0.0"
+
+training:
+  n_estimators: 100
+  max_depth: 10
+  random_state: 42
+  class_weight: "balanced"
+  test_size: 0.2
+  validation_split: 0.2
+
+preprocessing:
+  scaler_type: "standard"
+  handle_missing: "error"
+
+evaluation:
+  metrics:
+    - accuracy
+    - precision
+    - recall
+    - f1_score
+    - roc_auc
+    - sensitivity
+    - specificity
+
+data:
+  feature_names:
+    - pregnancies
+    - glucose
+    - blood_pressure
+    - skin_thickness
+    - insulin
+    - bmi
+    - diabetes_pedigree
+    - age
+

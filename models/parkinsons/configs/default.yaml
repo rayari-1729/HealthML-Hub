@@ -1,0 +1,15 @@
+# Default configuration for Parkinson's disease model
+
+model:
+  name: parkinsons_classifier
+  type: svm
+  version: "1.0.0"
+
+training:
+  C: 1.0
+  kernel: "rbf"
+  random_state: 42
+
+preprocessing:
+  scaler_type: "standard"
+

@@ -1,0 +1,20 @@
+{
+  "model_name": "brain_tumor_classifier",
+  "model_version": "1.0.0",
+  "model_type": "deep_learning",
+  "architecture": "MLP (128, 64, 32)",
+  "status": "under_development",
+  "metrics": {},
+  "feature_names": [
+    "mean_intensity", "std_intensity", "contrast", "energy",
+    "homogeneity", "correlation", "entropy", "area", "perimeter",
+    "compactness", "eccentricity", "solidity", "extent",
+    "aspect_ratio", "equivalent_diameter"
+  ],
+  "known_limitations": [
+    "Trained on synthetic data for demonstration",
+    "Uses extracted features, not raw images",
+    "In production, use CNN for direct image classification"
+  ]
+}
+
